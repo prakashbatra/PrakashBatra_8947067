@@ -26,7 +26,7 @@ full_time_programs = driver.find_element("xpath","/html/body/div[1]/div[3]/div[2
 full_time_programs.click()
 time.sleep(2)
 
-# Clicking on International students checkbox
+# Selecting International students checkbox
 international_students = driver.find_element("id","DeliveryGroups")
 international_students.click()
 time.sleep(2)
@@ -41,7 +41,7 @@ first_program = driver.find_element("xpath","/html/body/div[1]/div[3]/div[2]/div
 first_program.click()
 time.sleep(2)
 
-# Clicking on first program in the filtered results
+# Clicking on Admissions tab
 admissions = driver.find_element("xpath","/html/body/div[1]/div[3]/div[2]/div/div/div[1]/div[2]/div/ul/li[2]/a")
 admissions.click()
 time.sleep(2)
